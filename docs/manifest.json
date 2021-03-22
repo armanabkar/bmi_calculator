@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#0a0e21",
   "theme_color": "#0a0e21",
-  "description": "A new Flutter project.",
+  "description": "A simple Flutter app for calculating body mass index (BMI).",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [
