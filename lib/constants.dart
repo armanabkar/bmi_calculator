@@ -25,8 +25,14 @@ const kTitleTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
 );
 
-const kResultTextStyle = TextStyle(
+const kHealthyResultTextStyle = TextStyle(
   color: Color(0xFF24D876),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kUnHealthyResultTextStyle = TextStyle(
+  color: Color(0xFFDC1A24),
   fontSize: 22.0,
   fontWeight: FontWeight.bold,
 );

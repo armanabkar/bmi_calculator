@@ -43,7 +43,9 @@ class ResultsPage extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     resultText.toUpperCase(),
-                    style: kResultTextStyle,
+                    style: resultText == "Normal"
+                        ? kHealthyResultTextStyle
+                        : kUnHealthyResultTextStyle,
                   ),
                   Text(
                     bmiResult,
